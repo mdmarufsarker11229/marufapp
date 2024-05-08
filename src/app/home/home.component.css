@@ -1,0 +1,6 @@
+.box {
+    box-shadow: 4px 3px 13px black;
+    text-align:left;
+    column-gap:200px;
+    
+}

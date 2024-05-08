@@ -1,0 +1,38 @@
+<!-- <p>reactiveform works!</p>
+<div class="myform"> 
+    <form novalidate [FormGroup]="myform">
+      <div class="row">
+        <div class="col-xs-12 form-group">
+          <div formGroupName="itemrows">
+            <div class="row text-bold pane-heading">
+              Form Details
+            </div>
+            <ng-container *nfIf="myform.controls.itemrows!=null">
+              <div *ngFor="let item of myform.controls.itemrows.controls; let i=index" [formGroupName]="i">
+                <div class="row">
+                  <div class="col-md-2 form-group">
+                    <input type="text" matInput placeho="Name" formControlName="Name" />
+                  </div>
+                  <div class="col-md-2 form-group">
+                    <input type="text" matInput placeho="rollNo" formControlName="RollNo" />
+                  </div>
+                  <div class="col-md-2 form-group">
+                    <input type="text" matInput placeho="Class" formControlName="Class" />
+                  </div>
+                  <div class="col-md-2 form-group">
+                    <input type="text" matInput placeho="mobileNo" formControlName="MobileNo" />
+                  </div>
+                   <div class="col-md-2 form-group">
+                    <button class="btn btn-danger" type="btn" (click)="deleteRow(i)">X</button>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+            <div class="form-group" style="text-align:right">
+              <button type="btn" class="btn btn-primary" [disabled]="myform.invalid" (click)="addRow()">Add more </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div> -->

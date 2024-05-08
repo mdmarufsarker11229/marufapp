@@ -1,0 +1,25 @@
+<table class="table table-bordered">
+
+  <tr >
+    <th>id</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Password</th>
+    <th>View Details</th>
+  </tr>
+  <tbody>
+      <tr *ngFor="let person of users">
+          <td>{{person.id}}</td>
+          <td>{{person.name}}</td>
+          <td>{{person.email}}</td>
+          <td>{{person.password}}</td>
+          <button type="button" class="btn btn-primary" (click)="viewdetails(person.id)">view</button>
+      </tr>
+  </tbody>
+</table>
+
+
+
+
+
+

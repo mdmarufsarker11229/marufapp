@@ -1,0 +1,99 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "POST 1 ",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "POST 2",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "POST 3",
+      "views": 400
+    },
+    {
+      "id": "4",
+      "title": "POST 4",
+      "views": 600
+    },
+    {
+      "id": "5",
+      "title": "POST 5",
+      "views": 800
+    },
+    {
+      "id": "6",
+      "title": "POST 6",
+      "views": 1000
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "moon sakaer",
+      "email": "moon@gmail.com",
+      "password": "mono123"
+    }
+    ,{
+      "id": "2",
+      "name": "maruf",
+      "email": "maruf@gmail.com",
+      "password": "sdasdfdf"
+    },
+    {
+      "id": "3",
+      "name": "ashik ",
+      "email": "ashik@gmail.com",
+      "password": "uuioiuo"
+    },
+    {
+      "id": "4",
+      "name": "shoahag ",
+      "email": "shoahag@gmail.com",
+      "password": "shohagsdfljsdf"
+    }
+  ],
+  "userBooks": [
+    {
+      "id": "100",
+      "title": "programming language",
+      "course": "cse141.34"
+    },
+    {
+      "title": "Engineering Ethics",
+      "course": "soc341.12",
+      "id": "2"
+    },
+    {
+      "title": "Engineering Ethics",
+      "course": "soc341.12",
+      "id": "3"
+    },
+    {
+      "title": "Advanced English Skills",
+      "course": "Eng103.51",
+      "id": "4"
+    },
+    {
+      "title": "Advanced English Skills",
+      "course": "Eng103.51",
+      "id": "5"
+    }
+  ]
+}

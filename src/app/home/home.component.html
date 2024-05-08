@@ -1,0 +1,16 @@
+<h1 Class="text-center">post page</h1>
+
+
+
+<div class="row row-gap-4">
+    <div class="col-md-4 column-gap-4 box p-2" *ngFor="let item of posts">
+        <h3>ID:{{item.id}}</h3>
+        <h3 class="text-center">{{item.title}}</h3>
+
+        
+        <p>ndustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap </p>
+        <h3>views:{{item.views}}</h3>
+        <button type="button" class="btn btn-primary" (click)="detailpost(item.id)">details of this post</button>
+    </div>
+    
+</div>
